@@ -1,0 +1,101 @@
+body {
+	background-color: #F5F5F5;
+	font-family: 'Athiti', sans-serif;
+	margin: 17.5px;'
+
+}
+b {
+	text-decoration: underline;
+}
+#header {
+	background-color: #CD5C5C;
+	font-size: 20px;
+	font-style: bold;
+}
+.menu {
+	float: left;
+	top: 0;
+}
+.menu a {
+	border: none;
+    color: white;
+    padding : 25px 25px 25px 25px ;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: bold;
+    transition-duration: 0.4s;
+}
+.menu a:hover {
+	background-color: #FFFFFF;
+	padding : 5px 25px 5px 25px ;
+	color: #F08080;
+	font-style: bold;
+
+}
+#subheader {
+	text-decoration: none;
+	background-color: #F08080;
+	font-size: 20px;
+	font-style: bold;
+	float: left;
+	width: 30%;
+	height: 1270px
+}
+.menuleft1 {
+	display: block;
+}
+#subheader p {
+	padding-left: 5%
+}
+#subheader a {
+	text-decoration: none;
+	color: black;
+	transition-duration: 0.4s;
+}
+#subheader a:hover	{
+	color: white;
+}
+#content1 {
+	float: left;
+	width: 68.25%;
+	height: 1250px;
+	padding:10px;
+	background-color: #FFB6C1;
+	text-align : center;
+}
+#content1 p {
+	font-size: 20px;
+}
+#content1 a {
+	text-decoration: none;
+}
+#content1 a:hover {
+    color: white;
+}
+#table body table {
+	text-align: center;
+}
+#table table {
+	border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+#table tr,th,td {
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+#table {
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	clear:both;
+	background-color:black;
+    color:white;
+    text-align:center;
+   	padding:15px;
+}
+
